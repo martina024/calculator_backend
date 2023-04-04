@@ -1,12 +1,12 @@
 const express=require("express")
 const cors = require("cors");
-const { connection } = require("./config/db")
 
 
-
-const { authenticate } = require("./middelware/authenticate.middelware");
-const { userRouter } = require("./routes/user.routes");
 const { profileRouter } = require("./routes/profile.routes");
+const { userRouter } = require("./routes/user.routes");
+const { authenticate } = require("./middleware/authenticate.middelware");
+const { connection } = require("./cofig/db")
+
 
 
 
