@@ -1,5 +1,6 @@
 const express=require("express")
-const { ProfileModel } = require("../model/posts.model")
+const { ProfileModel } = require("../modal/profile.model")
+
 
 
 const profileRouter=express.Router()
